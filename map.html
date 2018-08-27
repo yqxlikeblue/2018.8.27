@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+<title>地图</title>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/map.css">
+<!--引用百度地图API-->
+<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+
+</head>
+<body>
+    <content>
+        <!-- 导航栏 -->
+        <nav>
+            <!-- 顶栏 -->
+            <div class="nav_top">
+                <p><a href="#">返回首页</a></p>
+                <p>当前位置：<a href="#">株洲市</a></p>
+                <p>地区：</p>
+                <ul>
+                    <li class="li"><a href="#">天元区</a></li>
+                    <li class="li"><a href="#">芦淞区</a></li>
+                    <li class="li"><a href="#">荷塘区</a></li>
+                    <li class="li"><a href="#">石峰区</a></li>
+                    <li class="longer"><a href="#">云龙示范区</a></li>
+                    <li class="li"><a href="#">株洲县</a></li>
+                    <li class="li"><a href="#">醴陵市</a></li>
+                    <li class="shoter"><a href="#">攸县</a></li>
+                    <li class="li"><a href="#">茶陵县</a></li>
+                    <li class="li"><a href="#">炎陵县</a></li>
+                </ul>
+                <p><a href="#">登录 | 免费注册</a></p>
+            </div>
+            <!-- 具体 -->
+            <div class="nav_juti"> 
+                <!-- 具体导航 -->
+                <div class="nav_bottom">
+                    <div class="nav_bottom1">
+                        <img src="img/logo_name.png">
+                        <ul class="nav_bottom1_right">
+                            <li>
+                                <div>
+                                    <p class="nav_bottom_p1"><img src="img/c_navpic03.png"><a href="qinzihuodong.html"><img src="img/c_navpic01.png">亲子活动、精品讲座...</a></p>
+                                    <div class="nav_bottom_p2">
+                                        <a href="#"><img src="img/c_navpic02.png"></a>信息资讯 INFO
+                                        <div class="second_nav">
+                                            <div>
+                                                <div><a href="#">FOCUS</a></div>
+                                                <div><a href="#">重点推荐</a></div>
+                                            </div>
+                                            <div>
+                                               <div><a href="#">NEW NOTICE</a></div>
+                                                <div><a href="#">最新公告</a></div> 
+                                            </div>
+                                            <div>
+                                                <div><a href="#">NEW INFO</a></div>
+                                                <div><a href="#">最新资讯</a></div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </li>
+                            <!-- 竖线 -->
+                            <li class="shuxian"><span> |</span></li>
+                            <li class="nav_bottom_content">
+                                <p><a href="reserve.html">预约预订 RESERVE</a></p>
+                                <p><a href="trainning.html">培训辅导 TRAINING</a></p>
+                                <p><a href="activity.html">活动赛事 ACTIVES GAMES</a></p>
+                            </li>
+                            <!-- 竖线 -->
+                            <li class="shuxian"><span> |</span></li>
+                            <li class="nav_bottom_content">
+                                <p><a href=""><a href="#">团队建设 TEAM</a></p>
+                                <p><a href="brand.html">品牌推荐 BRAND</a></p>
+                                <p><a href="show.html">成果展示 ACHIEVEMENT</a></p>
+                            </li>
+                             <!-- 竖线 -->
+                            <li class="shuxian"><span> |</span></li>
+                            <li class="nav_bottom_content">
+                                <p><a href="ninherit.html">非遗传承 NMCH</a></p>
+                                <p><a href="map.html">文体地图 STYLISTIC MAP</a></p>
+                                <p><a href="humanity.html">区县人文 HUMANITIES</a></p>
+                            </li>
+                            <!-- 竖线 -->
+                            <li class="shuxian"><span> |</span></li>
+                            <li class="nav_bottom_content1">
+                                <p><a href="artexam.html">艺普考级 ART EXAM</a></p>
+                                <p><a href="physical_testing.html">体质监测 PHYSICAL TESTING</a></p>
+                                <p><a href="#"><a href="#">配送菜单 MENU</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </nav>
+      <article>
+        <!-- 正文部分 -->
+        <!-- title -->
+        <div class="order_title">
+
+        </div>
+        <div class="order_content">
+            <!-- 地图标题 -->
+            <section class="map_title">
+                <ul>
+                    <li>
+                        <div class="map_title_left">地区</div>
+                        <div class="map_title_right">
+                            <span class="map_title_right1">全部</span>
+                            <span>体育中心</span>
+                            <span>天元区</span>
+                            <span>芦淞区</span>
+                            <span>荷塘区</span>
+                            <span>石峰区</span>
+                            <span>云龙区</span>
+                        </div>
+                    </li>
+                    <li class="map_right_li">
+                        <div class="map_title_left">分类</div>
+                        <div class="map_title_right">
+                            <span class="map_title_right1">全部</span>
+                            <span>韵动书屋</span>
+                            <span>艺术培训</span>
+                            <span>公共厕所</span>
+                            <span>图书馆</span>
+                            <span>电影院</span>
+                            <span>早教</span>
+                            <span>保龄球</span>
+                            <span>高尔夫</span>
+                            <span>门球</span>
+                            <span>足球培训</span>
+                            <span>武术</span>
+                            <span>健身广场舞</span>
+                            <span>摄影</span>
+                            <span>真人CS</span>
+                            <span>全民健身路径</span>
+                            <span>文化传媒</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- 地图 -->
+        <section class="map">
+                <div class="map1" id="dituContent"></div>
+        </section>
+        <!-- 主体内容 -->
+        <section class="brand_content">
+        
+            
+           
+          
+            <!-- 精彩活动 -->
+            <section class="brand_sixth">
+                    <div class="brand_div1">
+                            <span>精彩活动</span>
+                        </div>
+                        <div class="brand_div2">
+                            
+                            
+                            <ul>
+                                <li>
+                                    <div><img src="img/h_ditu/h_001.jpg"></div>
+                                    <h3>【还有7天】飞客机器人首届科技节就要来啦</h3>
+                                    <p class="brand_div2_words">
+                                            <span>89 views </span>
+                                            <span>89 comments</span>
+                                            <span>READ MORE</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div><img src="img/h_ditu/h_002.jpg"></div>
+                                    <h3>【遇见你真好】黄金档，9.9元限量抢！手慢无！！</h3>
+                                    <p class="brand_div2_words">
+                                            <span>89 views </span>
+                                            <span>89 comments</span>
+                                            <span>READ MORE</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div><img src="img/h_ditu/h_003.jpg"></div>
+                                    <h3>【五一歌手大赛】喊你来当评委，大众评审团报名开始了！</h3>
+                                    <p class="brand_div2_words">
+                                            <span>89 views </span>
+                                            <span>89 comments</span>
+                                            <span>READ MORE</span>
+                                    </p>
+                                </li>
+                            </ul>   
+                             
+                          
+                            <div class="brand_content_sorrow">
+                                <span class="brand_content_sorrow1"><</span>
+                                <span class="brand_content_sorrow2">></span>
+                            </div>
+                        </div>
+            </section>
+        </section>
+                        
+      </article>
+      
+
+
+
+      <footer>
+            <div class="footer_top">
+                <div class="li1">
+                    <div>
+                        <div class="li11"><img src="img/17.png"></div>
+                        <div class="li12"><img src="img/11.jpg"></div>
+                    </div>
+                    <div>
+                        <div class="li11"><img src="img/17.png"></div>
+                        <div class="li12"><img src="img/11.jpg"></div>
+                    </div>
+                    <p>扫描二维码 到手机浏览</p>
+                   
+                </div>
+                <div class="xian"></div>
+                <div class="li2">
+                    <ul>
+                        <li><img src="img/16.png"></li>
+                        <li>
+                            <div><img src="img/222.jpg"></div>
+                            <div>
+                                <a href="#">
+                                    <p>【半程马拉松】2018年第五届松</p>
+                                    <p>西子半程马拉松</p>
+                                </a>
+                                <p>2018-03-19 17:00</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div><img src="img/7.jpg"></div>
+                            <div>
+                                <a href="#">
+                                    <p>【骑行】捷安特周六骑行石燕湖</p>
+                                </a>
+                                <p>2018-03-16 17:21</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="xian1"></div>
+                <div class="li3">
+                     <ul>
+                        <li><img src="img/2.png"></li>
+                        <li>
+                                <a href="#">
+                                    预定场馆
+                                </a>
+                                <a href="#">
+                                    活动场馆
+                                </a>
+                                <a href="#">
+                                    非遗传承
+                                </a>
+                                <a href="#">
+                                    文体地图
+                                </a>
+                                <a href="#">
+                                    区县人文
+                                </a>
+                            
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="xian2"></div>
+                <div class="li4">
+                    <ul>
+                        <li><img src="img/5.png"></li>
+                        <li>湖南省株洲市天元区体育中心东北入口</li>
+                        <li>TEL:<span> 0731 - 28632006</span></li>
+                        <li>E-mail:<span> service@hunanyundong.com</span></li>
+                        <li><img src="img/111111.jpg"></li>
+                    </ul>
+                </div>
+           </div>
+           <div class="footer_bottom">
+                <div class="footer_a">
+                  <a href="#">Home</a>
+                    <span>::</span>
+                    <a href="#">服务条款</a>
+                    <span>::</span>
+                    <a href="#">意见反馈</a>
+                    <span>::</span>
+                    <a href="#">关于我们</a>
+                    <span>::</span>
+                </div>
+                <div class="footer_b">
+                   <p>株洲市文体广电新闻出版局授权  Copyright @2015-2017湖南韵动文化体育产业发展有限责任公司版权所有  湘ICP备15008273号</p>
+                </div>
+                <a href="#">
+                    <img src="img/8.png">
+                </a>
+           </div>
+      </footer>
+    </content>
+</body>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</html>
